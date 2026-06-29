@@ -2,7 +2,7 @@
 
 JN 是一个跨境电商 Codex 测试仓库，用于学习和验证 Codex 如何读取、整理、维护 GitHub 项目文件。
 
-当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录 SKU 项目总控、竞品调研、选品、供应链核价、商品上架、视觉素材、短视频、达人合作、订单履约、店铺运营、商品测试复盘、店铺周报和 Codex 测试过程。
+当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录 SKU 项目总控、竞品调研、选品、供应链核价、商品上架、视觉素材、短视频、达人合作、订单履约、售后问题、店铺运营、商品测试复盘、店铺周报和 Codex 测试过程。
 
 ## 项目简介
 
@@ -35,6 +35,7 @@ JN/
 │   ├── creator-affiliate-bd.md
 │   ├── content-calendar.md
 │   ├── order-workflow.md
+│   ├── after-sales-issue-log-template.md
 │   ├── tiktok-shop-sop.md
 │   ├── product-test-review-template.md
 │   └── store-weekly-report-template.md
@@ -59,7 +60,9 @@ JN/
     ├── eighteenth-test.md
     ├── nineteenth-test.md
     ├── twentieth-test.md
-    └── twenty-first-test.md
+    ├── twenty-first-test.md
+    ├── twenty-second-test.md
+    └── twenty-third-test.md
 ```
 
 ## docs 文档说明
@@ -76,6 +79,7 @@ JN/
 - `docs/creator-affiliate-bd.md`：美国 TikTok Shop 达人联盟 BD 执行 SOP
 - `docs/content-calendar.md`：内容计划日历
 - `docs/order-workflow.md`：订单处理流程
+- `docs/after-sales-issue-log-template.md`：售后问题记录规范模板，用于记录、分类、跟进和复盘退款、退货、补发、赔付、质量、物流和内容误导等售后问题
 - `docs/tiktok-shop-sop.md`：TikTok Shop 日常运营执行 SOP
 - `docs/product-test-review-template.md`：商品测试复盘模板，用于沉淀测品结果和决策闭环
 - `docs/store-weekly-report-template.md`：店铺周报模板，用于每周复盘多平台店铺运营表现
@@ -103,6 +107,8 @@ JN/
 - `tasks/nineteenth-test.md`：第十九次竞品与市场调研 SOP 导航更新记录
 - `tasks/twentieth-test.md`：第二十次 SKU 单品项目总控交付 SOP 新增记录
 - `tasks/twenty-first-test.md`：第二十一次 SKU 单品项目总控交付 SOP 导航更新记录
+- `tasks/twenty-second-test.md`：第二十二次售后问题记录规范模板新增记录
+- `tasks/twenty-third-test.md`：第二十三次售后问题记录规范模板导航更新记录
 
 ## 推荐阅读顺序
 
@@ -119,15 +125,15 @@ JN/
 11. 阅读 `docs/creator-affiliate-bd.md`，推进达人建联、联盟营销、样品和直播合作。
 12. 阅读 `docs/content-calendar.md`，安排内容排期和复盘。
 13. 阅读 `docs/order-workflow.md`，处理订单履约和售后异常。
-14. 阅读 `docs/tiktok-shop-sop.md`，执行 TikTok Shop 日常运营检查和每周复盘。
-15. 阅读 `docs/product-test-review-template.md`，完成商品测试复盘并判断继续放量、优化再测、暂缓或停止测试。
-16. 阅读 `docs/store-weekly-report-template.md`，汇总店铺周度运营表现和下周重点动作。
-17. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
+14. 阅读 `docs/after-sales-issue-log-template.md`，记录售后问题、处理动作、责任归因和复盘结论。
+15. 阅读 `docs/tiktok-shop-sop.md`，执行 TikTok Shop 日常运营检查和每周复盘。
+16. 阅读 `docs/product-test-review-template.md`，完成商品测试复盘并判断继续放量、优化再测、暂缓或停止测试。
+17. 阅读 `docs/store-weekly-report-template.md`，汇总店铺周度运营表现和下周重点动作。
+18. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
 
 ## 后续可扩展方向
 
 - 新增店铺月报模板
-- 新增售后问题记录规范
 - 新增达人合作跟进表
 - 新增平台规则变更记录
 - 新增广告投放记录模板
