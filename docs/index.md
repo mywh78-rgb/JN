@@ -9,6 +9,7 @@
 当前文档覆盖完整业务流程：
 
 - Codex 设置与工作流
+- 竞品与市场调研
 - 选品决策
 - 供应链与核价
 - 商品上架与审核前检查
@@ -27,19 +28,20 @@
 
 适合在开始维护仓库前阅读。
 
-## 3. 业务流程入口
+## 3. 选品、供应链与调研决策
 
+- `market-competitor-research-sop.md`：跨境电商竞品与市场调研 SOP，用于规范选品、供应链核价、商品上架、图片素材、短视频脚本、达人 BD 和运营复盘之前的调研流程。
 - `product-selection-sop.md`：跨境电商选品运营执行 SOP，用于判断商品是否值得做、适合哪个平台、风险是否可控。
 - `supply-chain-pricing-sop.md`：供应链与核价执行 SOP，用于确认供货价、利润、物流、库存、质检、履约和供应链风险。
 
-这两份文档应放在业务流程最前面：先判断商品值不值得做，再判断能不能供、能不能赚、能不能稳定履约。
+这三份文档应放在业务流程最前面：先完成竞品与市场调研，再判断商品值不值得做，最后判断能不能供、能不能赚、能不能稳定履约。
 
 ## 4. 商品上架与素材文档
 
 - `product-listing-guide.md`：美国 TikTok Shop 商品上架执行 SOP，覆盖上架前资料、标题结构、素材检查、合规风险和上架后复查。
 - `product-image-brief.md`：商品图片视觉执行 SOP，覆盖 9 张主图、6 张 A+详情图、4K 高清质感、800x800 导出、参考图识别和类目差异化要求。
 
-适合在选品和供应链核价通过后使用。
+适合在调研、选品和供应链核价通过后使用。
 
 ## 5. 内容与短视频文档
 
@@ -91,21 +93,24 @@
 建议按以下业务流程阅读和使用文档：
 
 1. `codex-setup.md`：先了解仓库和 Codex 工作流。
-2. `product-selection-sop.md`：判断商品是否值得做。
-3. `supply-chain-pricing-sop.md`：确认供货价、利润、物流、库存、质检和履约风险。
-4. `product-listing-guide.md`：准备商品上架资料并完成审核前检查。
-5. `product-image-brief.md`：规划商品主图、A+详情图、场景图和视觉素材。
-6. `tiktok-video-script-sop.md`：产出短视频脚本、英文字幕、Hook 和 AI 视频提示词。
-7. `creator-affiliate-bd.md`：推进达人建联、联盟营销、样品寄送和直播合作。
-8. `content-calendar.md`：规划内容排期、发布状态和数据复盘。
-9. `order-workflow.md`：处理订单履约、物流和售后异常。
-10. `tiktok-shop-sop.md`：执行 TikTok Shop 日常运营检查和每周复盘。
-11. `product-test-review-template.md`：完成商品测试复盘，决定继续放量、优化再测、暂缓或停止测试。
-12. `store-weekly-report-template.md`：汇总店铺周度运营表现，整理本周问题和下周重点动作。
+2. `market-competitor-research-sop.md`：完成竞品、市场、趋势、评论、视觉、视频、价格和合规调研。
+3. `product-selection-sop.md`：判断商品是否值得做。
+4. `supply-chain-pricing-sop.md`：确认供货价、利润、物流、库存、质检和履约风险。
+5. `product-listing-guide.md`：准备商品上架资料并完成审核前检查。
+6. `product-image-brief.md`：规划商品主图、A+详情图、场景图和视觉素材。
+7. `tiktok-video-script-sop.md`：产出短视频脚本、英文字幕、Hook 和 AI 视频提示词。
+8. `creator-affiliate-bd.md`：推进达人建联、联盟营销、样品寄送和直播合作。
+9. `content-calendar.md`：规划内容排期、发布状态和数据复盘。
+10. `order-workflow.md`：处理订单履约、物流和售后异常。
+11. `tiktok-shop-sop.md`：执行 TikTok Shop 日常运营检查和每周复盘。
+12. `product-test-review-template.md`：完成商品测试复盘，决定继续放量、优化再测、暂缓或停止测试。
+13. `store-weekly-report-template.md`：汇总店铺周度运营表现，整理本周问题和下周重点动作。
 
 ## 12. 业务流程关系
 
 ```text
+竞品与市场调研
+  ↓
 选品决策
   ↓
 供应链与核价
