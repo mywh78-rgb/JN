@@ -2,11 +2,11 @@
 
 JN 是一个跨境电商 Codex 测试仓库，用于学习和验证 Codex 如何读取、整理、维护 GitHub 项目文件。
 
-当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录店铺运营、商品上架、订单履约、内容营销、达人合作和 Codex 测试过程。
+当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录选品、供应链核价、商品上架、视觉素材、短视频、达人合作、订单履约、店铺运营和 Codex 测试过程。
 
 ## 项目简介
 
-这个仓库用于模拟一个跨境电商项目的文档维护流程。通过多轮 Codex 测试，仓库逐步建立了 `docs/` 业务文档和 `tasks/` 测试记录两类内容。
+这个仓库用于模拟一个跨境电商项目的文档维护流程。通过多轮 Codex 测试，仓库逐步建立了 `docs/` 业务 SOP 和 `tasks/` 测试记录两类内容。
 
 ## 仓库用途
 
@@ -25,32 +25,44 @@ JN/
 ├── docs/
 │   ├── index.md
 │   ├── codex-setup.md
-│   ├── tiktok-shop-sop.md
+│   ├── product-selection-sop.md
+│   ├── supply-chain-pricing-sop.md
 │   ├── product-listing-guide.md
-│   ├── order-workflow.md
-│   ├── content-calendar.md
-│   ├── creator-affiliate-bd.md
 │   ├── product-image-brief.md
-│   └── tiktok-video-script-sop.md
+│   ├── tiktok-video-script-sop.md
+│   ├── creator-affiliate-bd.md
+│   ├── content-calendar.md
+│   ├── order-workflow.md
+│   └── tiktok-shop-sop.md
 └── tasks/
     ├── first-test.md
     ├── second-test.md
     ├── third-test.md
     ├── fourth-test.md
-    └── fifth-test.md
+    ├── fifth-test.md
+    ├── sixth-test.md
+    ├── seventh-test.md
+    ├── eighth-test.md
+    ├── ninth-test.md
+    ├── tenth-test.md
+    ├── eleventh-test.md
+    ├── twelfth-test.md
+    └── thirteenth-test.md
 ```
 
 ## docs 文档说明
 
 - `docs/index.md`：所有 SOP 和业务文档的总导航
 - `docs/codex-setup.md`：Codex 设置和使用流程记录
-- `docs/tiktok-shop-sop.md`：TikTok Shop 日常运营 SOP
-- `docs/product-listing-guide.md`：商品上架资料规范
-- `docs/order-workflow.md`：订单处理流程
+- `docs/product-selection-sop.md`：跨境电商选品运营执行 SOP
+- `docs/supply-chain-pricing-sop.md`：供应链与核价执行 SOP
+- `docs/product-listing-guide.md`：美国 TikTok Shop 商品上架执行 SOP
+- `docs/product-image-brief.md`：商品图片视觉执行 SOP
+- `docs/tiktok-video-script-sop.md`：TikTok 带货短视频脚本执行 SOP
+- `docs/creator-affiliate-bd.md`：美国 TikTok Shop 达人联盟 BD 执行 SOP
 - `docs/content-calendar.md`：内容计划日历
-- `docs/creator-affiliate-bd.md`：达人联盟 BD 流程
-- `docs/product-image-brief.md`：商品图片拍摄 Brief
-- `docs/tiktok-video-script-sop.md`：TikTok 短视频脚本 SOP
+- `docs/order-workflow.md`：订单处理流程
+- `docs/tiktok-shop-sop.md`：TikTok Shop 日常运营执行 SOP
 
 ## tasks 测试记录说明
 
@@ -59,21 +71,37 @@ JN/
 - `tasks/third-test.md`：第三次商品、订单和内容文档创建记录
 - `tasks/fourth-test.md`：第四次营销运营文档创建记录
 - `tasks/fifth-test.md`：第五次 README 和文档导航整理记录
+- `tasks/sixth-test.md`：第六次 TikTok Shop 日常运营 SOP 升级记录
+- `tasks/seventh-test.md`：第七次商品上架 SOP 升级记录
+- `tasks/eighth-test.md`：第八次商品图片 brief 升级记录
+- `tasks/ninth-test.md`：第九次短视频脚本 SOP 升级记录
+- `tasks/tenth-test.md`：第十次达人联盟 BD SOP 升级记录
+- `tasks/eleventh-test.md`：第十一次选品 SOP 新增记录
+- `tasks/twelfth-test.md`：第十二次供应链与核价 SOP 新增记录
+- `tasks/thirteenth-test.md`：第十三次 README 和 docs 导航更新记录
 
 ## 推荐阅读顺序
 
 1. 先阅读 `README.md`，了解仓库用途和整体结构。
-2. 阅读 `docs/index.md`，查看所有业务文档导航。
+2. 阅读 `docs/index.md`，查看完整业务流程导航。
 3. 阅读 `docs/codex-setup.md`，了解 Codex 工作流。
-4. 阅读 `docs/tiktok-shop-sop.md`，了解日常运营主流程。
-5. 按业务需要阅读商品、订单、内容、达人、图片和脚本文档。
-6. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
+4. 阅读 `docs/product-selection-sop.md`，判断商品是否值得做。
+5. 阅读 `docs/supply-chain-pricing-sop.md`，确认供货价、利润、物流、库存、质检和履约风险。
+6. 阅读 `docs/product-listing-guide.md`，准备商品上架资料和审核前检查。
+7. 阅读 `docs/product-image-brief.md`，规划商品主图、A+图、场景图和视觉素材。
+8. 阅读 `docs/tiktok-video-script-sop.md`，规划短视频脚本、英文字幕、Hook 和 AI 视频提示词。
+9. 阅读 `docs/creator-affiliate-bd.md`，推进达人建联、联盟营销、样品和直播合作。
+10. 阅读 `docs/content-calendar.md`，安排内容排期和复盘。
+11. 阅读 `docs/order-workflow.md`，处理订单履约和售后异常。
+12. 阅读 `docs/tiktok-shop-sop.md`，执行 TikTok Shop 日常运营检查和每周复盘。
+13. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
 
 ## 后续可扩展方向
 
 - 新增店铺周报或月报模板
-- 新增选品分析模板
 - 新增售后问题记录规范
 - 新增达人合作跟进表
 - 新增平台规则变更记录
+- 新增广告投放记录模板
+- 新增促销活动复盘模板
 - 将文档结构扩展为前端看板或自动化工具
