@@ -2,7 +2,7 @@
 
 JN 是一个跨境电商 Codex 测试仓库，用于学习和验证 Codex 如何读取、整理、维护 GitHub 项目文件。
 
-当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录竞品调研、选品、供应链核价、商品上架、视觉素材、短视频、达人合作、订单履约、店铺运营、商品测试复盘、店铺周报和 Codex 测试过程。
+当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录 SKU 项目总控、竞品调研、选品、供应链核价、商品上架、视觉素材、短视频、达人合作、订单履约、店铺运营、商品测试复盘、店铺周报和 Codex 测试过程。
 
 ## 项目简介
 
@@ -25,6 +25,7 @@ JN/
 ├── docs/
 │   ├── index.md
 │   ├── codex-setup.md
+│   ├── sku-launch-master-sop.md
 │   ├── market-competitor-research-sop.md
 │   ├── product-selection-sop.md
 │   ├── supply-chain-pricing-sop.md
@@ -56,13 +57,16 @@ JN/
     ├── sixteenth-test.md
     ├── seventeenth-test.md
     ├── eighteenth-test.md
-    └── nineteenth-test.md
+    ├── nineteenth-test.md
+    ├── twentieth-test.md
+    └── twenty-first-test.md
 ```
 
 ## docs 文档说明
 
 - `docs/index.md`：所有 SOP 和业务文档的总导航
 - `docs/codex-setup.md`：Codex 设置和使用流程记录
+- `docs/sku-launch-master-sop.md`：SKU 单品项目总控交付 SOP，用于串联单个 SKU 从选品到测试复盘和周报沉淀的完整流程
 - `docs/market-competitor-research-sop.md`：竞品与市场调研 SOP，用于选品、核价、上架、图片、视频、达人和供应链判断前的调研入口
 - `docs/product-selection-sop.md`：跨境电商选品运营执行 SOP
 - `docs/supply-chain-pricing-sop.md`：供应链与核价执行 SOP
@@ -97,25 +101,28 @@ JN/
 - `tasks/seventeenth-test.md`：第十七次店铺周报模板导航更新记录
 - `tasks/eighteenth-test.md`：第十八次竞品与市场调研 SOP 新增记录
 - `tasks/nineteenth-test.md`：第十九次竞品与市场调研 SOP 导航更新记录
+- `tasks/twentieth-test.md`：第二十次 SKU 单品项目总控交付 SOP 新增记录
+- `tasks/twenty-first-test.md`：第二十一次 SKU 单品项目总控交付 SOP 导航更新记录
 
 ## 推荐阅读顺序
 
 1. 先阅读 `README.md`，了解仓库用途和整体结构。
 2. 阅读 `docs/index.md`，查看完整业务流程导航。
 3. 阅读 `docs/codex-setup.md`，了解 Codex 工作流。
-4. 阅读 `docs/market-competitor-research-sop.md`，先完成竞品、市场、趋势、评论、视觉、视频、价格和合规调研。
-5. 阅读 `docs/product-selection-sop.md`，判断商品是否值得做。
-6. 阅读 `docs/supply-chain-pricing-sop.md`，确认供货价、利润、物流、库存、质检和履约风险。
-7. 阅读 `docs/product-listing-guide.md`，准备商品上架资料和审核前检查。
-8. 阅读 `docs/product-image-brief.md`，规划商品主图、A+图、场景图和视觉素材。
-9. 阅读 `docs/tiktok-video-script-sop.md`，规划短视频脚本、英文字幕、Hook 和 AI 视频提示词。
-10. 阅读 `docs/creator-affiliate-bd.md`，推进达人建联、联盟营销、样品和直播合作。
-11. 阅读 `docs/content-calendar.md`，安排内容排期和复盘。
-12. 阅读 `docs/order-workflow.md`，处理订单履约和售后异常。
-13. 阅读 `docs/tiktok-shop-sop.md`，执行 TikTok Shop 日常运营检查和每周复盘。
-14. 阅读 `docs/product-test-review-template.md`，完成商品测试复盘并判断继续放量、优化再测、暂缓或停止测试。
-15. 阅读 `docs/store-weekly-report-template.md`，汇总店铺周度运营表现和下周重点动作。
-16. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
+4. 阅读 `docs/sku-launch-master-sop.md`，作为单个 SKU 项目从启动到复盘的总控入口。
+5. 阅读 `docs/market-competitor-research-sop.md`，先完成竞品、市场、趋势、评论、视觉、视频、价格和合规调研。
+6. 阅读 `docs/product-selection-sop.md`，判断商品是否值得做。
+7. 阅读 `docs/supply-chain-pricing-sop.md`，确认供货价、利润、物流、库存、质检和履约风险。
+8. 阅读 `docs/product-listing-guide.md`，准备商品上架资料和审核前检查。
+9. 阅读 `docs/product-image-brief.md`，规划商品主图、A+图、场景图和视觉素材。
+10. 阅读 `docs/tiktok-video-script-sop.md`，规划短视频脚本、英文字幕、Hook 和 AI 视频提示词。
+11. 阅读 `docs/creator-affiliate-bd.md`，推进达人建联、联盟营销、样品和直播合作。
+12. 阅读 `docs/content-calendar.md`，安排内容排期和复盘。
+13. 阅读 `docs/order-workflow.md`，处理订单履约和售后异常。
+14. 阅读 `docs/tiktok-shop-sop.md`，执行 TikTok Shop 日常运营检查和每周复盘。
+15. 阅读 `docs/product-test-review-template.md`，完成商品测试复盘并判断继续放量、优化再测、暂缓或停止测试。
+16. 阅读 `docs/store-weekly-report-template.md`，汇总店铺周度运营表现和下周重点动作。
+17. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
 
 ## 后续可扩展方向
 
