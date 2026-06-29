@@ -9,6 +9,7 @@
 当前文档覆盖完整业务流程：
 
 - Codex 设置与工作流
+- SKU 单品项目总控
 - 竞品与市场调研
 - 选品决策
 - 供应链与核价
@@ -28,47 +29,53 @@
 
 适合在开始维护仓库前阅读。
 
-## 3. 选品、供应链与调研决策
+## 3. SKU 项目总控入口
+
+- `sku-launch-master-sop.md`：SKU 单品项目总控交付 SOP，用于串联一个商品 SKU 从选品、竞品调研、供应链核价、商品上架、图片、短视频、达人、运营、订单、商品测试复盘到店铺周报沉淀的完整流程。
+
+这份文档适合作为单个 SKU 项目的总控入口，先用它确认项目阶段、负责人、交付物、风险和下一步动作，再进入具体业务 SOP。
+
+## 4. 选品、供应链与调研决策
 
 - `market-competitor-research-sop.md`：跨境电商竞品与市场调研 SOP，用于规范选品、供应链核价、商品上架、图片素材、短视频脚本、达人 BD 和运营复盘之前的调研流程。
 - `product-selection-sop.md`：跨境电商选品运营执行 SOP，用于判断商品是否值得做、适合哪个平台、风险是否可控。
 - `supply-chain-pricing-sop.md`：供应链与核价执行 SOP，用于确认供货价、利润、物流、库存、质检、履约和供应链风险。
 
-这三份文档应放在业务流程最前面：先完成竞品与市场调研，再判断商品值不值得做，最后判断能不能供、能不能赚、能不能稳定履约。
+这三份文档应放在业务流程前段：先完成 SKU 项目总控，再完成竞品与市场调研，然后判断商品值不值得做，最后判断能不能供、能不能赚、能不能稳定履约。
 
-## 4. 商品上架与素材文档
+## 5. 商品上架与素材文档
 
 - `product-listing-guide.md`：美国 TikTok Shop 商品上架执行 SOP，覆盖上架前资料、标题结构、素材检查、合规风险和上架后复查。
 - `product-image-brief.md`：商品图片视觉执行 SOP，覆盖 9 张主图、6 张 A+详情图、4K 高清质感、800x800 导出、参考图识别和类目差异化要求。
 
 适合在调研、选品和供应链核价通过后使用。
 
-## 5. 内容与短视频文档
+## 6. 内容与短视频文档
 
 - `tiktok-video-script-sop.md`：TikTok 带货短视频脚本执行 SOP，覆盖 15 秒、20 秒、30 秒结构、前 3 秒 Hook、英文字幕、口播、自然流节奏和 Seedance / Dreamina 提示词。
 - `content-calendar.md`：内容计划日历，覆盖内容规划周期、每周安排、短视频选题、商品匹配、发布状态和数据复盘。
 
 适合用于短视频内容计划、AI 视频生成和内容复盘。
 
-## 6. 达人与联盟文档
+## 7. 达人与联盟文档
 
 - `creator-affiliate-bd.md`：美国 TikTok Shop 达人联盟 BD 执行 SOP，覆盖达人筛选、邀约话术、样品寄送、佣金设置、直播专属价、内容审核和合作复盘。
 
 适合用于达人建联、联盟推广、直播合作和达人效果复盘。
 
-## 7. 订单与履约文档
+## 8. 订单与履约文档
 
 - `order-workflow.md`：订单处理流程，覆盖订单状态、新订单处理、发货物流、退款退货、异常订单记录和每日复盘。
 
 适合用于商品进入销售后的订单履约和售后处理。
 
-## 8. 店铺运营 SOP
+## 9. 店铺运营 SOP
 
 - `tiktok-shop-sop.md`：TikTok Shop 日常运营执行 SOP，覆盖每日检查、每周复盘、商品、订单、内容、达人、合规五大运营模块和异常问题记录。
 
 适合用作店铺日常运营总入口。
 
-## 9. 复盘与决策闭环
+## 10. 复盘与决策闭环
 
 - `product-test-review-template.md`：商品测试复盘模板，用于记录商品测试后的选品评分、供应链核价、上架表现、图片素材、短视频内容、达人联盟、订单售后、利润成本、合规风险和最终测试结论。
 - `store-weekly-report-template.md`：店铺周报模板，用于每周复盘 TikTok Shop、Amazon、Shopify、Temu 等平台的店铺运营表现，并沉淀本周问题清单和下周重点动作。
@@ -82,33 +89,36 @@
 - 停止测试
 - 调整下周运营重点
 
-## 10. 周报、月报与数据复盘
+## 11. 周报、月报与数据复盘
 
 - `store-weekly-report-template.md`：店铺周报模板，适合用于运营周会、跨平台经营复盘、商品测试汇总、内容和达人效果复盘、订单售后问题追踪。
 
 后续如果新增店铺月报、广告投放复盘、促销活动复盘，可继续放入本分类。
 
-## 11. 推荐使用顺序
+## 12. 推荐使用顺序
 
 建议按以下业务流程阅读和使用文档：
 
 1. `codex-setup.md`：先了解仓库和 Codex 工作流。
-2. `market-competitor-research-sop.md`：完成竞品、市场、趋势、评论、视觉、视频、价格和合规调研。
-3. `product-selection-sop.md`：判断商品是否值得做。
-4. `supply-chain-pricing-sop.md`：确认供货价、利润、物流、库存、质检和履约风险。
-5. `product-listing-guide.md`：准备商品上架资料并完成审核前检查。
-6. `product-image-brief.md`：规划商品主图、A+详情图、场景图和视觉素材。
-7. `tiktok-video-script-sop.md`：产出短视频脚本、英文字幕、Hook 和 AI 视频提示词。
-8. `creator-affiliate-bd.md`：推进达人建联、联盟营销、样品寄送和直播合作。
-9. `content-calendar.md`：规划内容排期、发布状态和数据复盘。
-10. `order-workflow.md`：处理订单履约、物流和售后异常。
-11. `tiktok-shop-sop.md`：执行 TikTok Shop 日常运营检查和每周复盘。
-12. `product-test-review-template.md`：完成商品测试复盘，决定继续放量、优化再测、暂缓或停止测试。
-13. `store-weekly-report-template.md`：汇总店铺周度运营表现，整理本周问题和下周重点动作。
+2. `sku-launch-master-sop.md`：作为单个 SKU 项目从启动到复盘的总控入口。
+3. `market-competitor-research-sop.md`：完成竞品、市场、趋势、评论、视觉、视频、价格和合规调研。
+4. `product-selection-sop.md`：判断商品是否值得做。
+5. `supply-chain-pricing-sop.md`：确认供货价、利润、物流、库存、质检和履约风险。
+6. `product-listing-guide.md`：准备商品上架资料并完成审核前检查。
+7. `product-image-brief.md`：规划商品主图、A+详情图、场景图和视觉素材。
+8. `tiktok-video-script-sop.md`：产出短视频脚本、英文字幕、Hook 和 AI 视频提示词。
+9. `creator-affiliate-bd.md`：推进达人建联、联盟营销、样品寄送和直播合作。
+10. `content-calendar.md`：规划内容排期、发布状态和数据复盘。
+11. `order-workflow.md`：处理订单履约、物流和售后异常。
+12. `tiktok-shop-sop.md`：执行 TikTok Shop 日常运营检查和每周复盘。
+13. `product-test-review-template.md`：完成商品测试复盘，决定继续放量、优化再测、暂缓或停止测试。
+14. `store-weekly-report-template.md`：汇总店铺周度运营表现，整理本周问题和下周重点动作。
 
-## 12. 业务流程关系
+## 13. 业务流程关系
 
 ```text
+SKU 项目总控
+  ↓
 竞品与市场调研
   ↓
 选品决策
@@ -132,7 +142,7 @@
 继续放量 / 优化再测 / 暂缓 / 停止测试 / 调整下周重点
 ```
 
-## 13. 后续可补充文档
+## 14. 后续可补充文档
 
 后续可以继续新增：
 
