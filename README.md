@@ -2,7 +2,7 @@
 
 JN 是一个跨境电商 Codex 测试仓库，用于学习和验证 Codex 如何读取、整理、维护 GitHub 项目文件。
 
-当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录选品、供应链核价、商品上架、视觉素材、短视频、达人合作、订单履约、店铺运营和 Codex 测试过程。
+当前仓库重点不是实现业务系统，而是沉淀一套清晰的跨境电商运营文档结构，帮助记录选品、供应链核价、商品上架、视觉素材、短视频、达人合作、订单履约、店铺运营、商品测试复盘和 Codex 测试过程。
 
 ## 项目简介
 
@@ -33,7 +33,8 @@ JN/
 │   ├── creator-affiliate-bd.md
 │   ├── content-calendar.md
 │   ├── order-workflow.md
-│   └── tiktok-shop-sop.md
+│   ├── tiktok-shop-sop.md
+│   └── product-test-review-template.md
 └── tasks/
     ├── first-test.md
     ├── second-test.md
@@ -47,7 +48,9 @@ JN/
     ├── tenth-test.md
     ├── eleventh-test.md
     ├── twelfth-test.md
-    └── thirteenth-test.md
+    ├── thirteenth-test.md
+    ├── fourteenth-test.md
+    └── fifteenth-test.md
 ```
 
 ## docs 文档说明
@@ -63,6 +66,7 @@ JN/
 - `docs/content-calendar.md`：内容计划日历
 - `docs/order-workflow.md`：订单处理流程
 - `docs/tiktok-shop-sop.md`：TikTok Shop 日常运营执行 SOP
+- `docs/product-test-review-template.md`：商品测试复盘模板，用于沉淀测品结果和决策闭环
 
 ## tasks 测试记录说明
 
@@ -79,6 +83,8 @@ JN/
 - `tasks/eleventh-test.md`：第十一次选品 SOP 新增记录
 - `tasks/twelfth-test.md`：第十二次供应链与核价 SOP 新增记录
 - `tasks/thirteenth-test.md`：第十三次 README 和 docs 导航更新记录
+- `tasks/fourteenth-test.md`：第十四次商品测试复盘模板新增记录
+- `tasks/fifteenth-test.md`：第十五次商品测试复盘模板导航更新记录
 
 ## 推荐阅读顺序
 
@@ -94,7 +100,8 @@ JN/
 10. 阅读 `docs/content-calendar.md`，安排内容排期和复盘。
 11. 阅读 `docs/order-workflow.md`，处理订单履约和售后异常。
 12. 阅读 `docs/tiktok-shop-sop.md`，执行 TikTok Shop 日常运营检查和每周复盘。
-13. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
+13. 阅读 `docs/product-test-review-template.md`，完成商品测试复盘并判断继续放量、优化再测、暂缓或停止测试。
+14. 阅读 `tasks/` 下的测试记录，了解每一轮 Codex 操作历史。
 
 ## 后续可扩展方向
 
